@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+    <!-- mozactionhint
+        autocomplete
+        
+     -->
+    <div class="container">
+        <form action="/product.php">
+            <fieldset>
+                <legend>Buy Product</legend>
+                <div class="main">
+                    <div class="about">
+                        <label for="userName">Enter your name</label>
+                        <input id="userName" maxlength="20" type="text" placeholder="Name and Surname">
+                        <label for="userLocation" >Enter your location</label>
+                        <input id="userLocation"  maxlength="40"type="text" placeholder="City">
+                        <label for="userEmail" >Enter your eMail</label>
+                        <input id="userEmail"  maxlength="40" type="text" placeholder="Your Email here">
+                        <label for="phone">Phone Number</label>
+                        <input id="phone"  maxlength="15" type="tel." placeholder="Phone number here">
+                        <div class="bot">
+                            <label for="bot">If you are not a robot</label>
+                            <input id="bot" type="checkbox">
+                        </div>
+                    </div>
+                    <div class="about">
+                        <label for="productNumber">Select number</label>
+                        <input id="productNumber" type="number">
+                       <div class="color">
+                            <label for="productColor">Choose color</label>
+                            <input id="productColor" type="color">
+                       </div>
+                        
+                        <div class="size">
+                            <h3>Size</h3>
+                            <label for="small">Small</label>
+                            <input name="size" id="small" type="radio">
+                            <label for="normal">Normal</label>
+                            <input name="size" id="normal" type="radio">
+                            <label for="big">Big</label>
+                            <input name="size" id="big" type="radio">
+                        </div>
+                    </div>
+                </div>
+                <button type="submit">submit</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
